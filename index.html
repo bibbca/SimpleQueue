@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf=8">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/navbar-top-fixed.css" rel="stylesheet">
+	<title> Queue v 0.1</title>
+</head>
+
+<body class="text-center">
+<h2 class="h3 mb-3 font-weight-normal">Queue v 0.1</h2>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" id="inputName" placeholder="Name" aria-label="Name" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" onclick="addName()">Add Name</button>
+  </div>
+</div>
+<p>Current length: <span id="nameLength"></span> </p>
+<br />
+<button class="btn btn-primary btn-secondary" onclick="increment(1)">+</button>
+<button class="btn btn-secondary" onclick="increment(-1)">-</button>
+
+<button onclick="removeName()" class="btn btn-danger">Remove <span id="removeAmount"></span>st Place</button>
+
+<p id="demo"></p>
+<p id="formatted"></p>
+
+
+	<script src="./js/main.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
