@@ -9,3 +9,4 @@ I have many days in my classroom where the teacher primarily preforms one on one
 - Create seperate management page.
 - Remove completion capability from main page.
 - Enable multiple clients to view the page simultaneously.
+- Write and package into chrome extension
